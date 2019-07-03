@@ -1,0 +1,91 @@
+Project 3: Queues & Simulation
+By Mai Pham
+
+Minute 1:
+Minute 2:
+Minute 3:
+  => Customer 1 call.
+  => Estimate wait time for customer 1 is 0.
+  => Serving customer 1.
+Minute 4:
+  => Customer 2 call.
+  => Estimate wait time for customer 2 is 2.
+Minute 5:
+  => Customer 3 call.
+  => Estimate wait time for customer 3 is 4.
+  => Customer 1 completed.
+  => Serving customer 2.
+Minute 6:
+  => Customer 2 completed.
+  => Serving customer 3.
+Minute 7:
+Minute 8:
+  => Customer 4 call.
+  => Estimate wait time for customer 4 is 2.
+Minute 9:
+Minute 10:
+  => Customer 3 completed.
+  => Serving customer 4.
+Minute 11:
+  => Customer 5 call.
+  => Estimate wait time for customer 5 is 2.
+  => Customer 4 completed.
+  => Serving customer 5.
+Minute 12:
+  => Customer 5 completed.
+Minute 13:
+Minute 14:
+  => Customer 6 call.
+  => Estimate wait time for customer 6 is 0.
+  => Serving customer 6.
+Minute 15:
+Minute 16:
+Minute 17:
+  => Customer 7 call.
+  => Estimate wait time for customer 7 is 2.
+Minute 18:
+  => Customer 6 completed.
+  => Serving customer 7.
+Minute 19:
+  => Customer 8 call.
+  => Estimate wait time for customer 8 is 2.
+Minute 20:
+  => Customer 9 call.
+  => Estimate wait time for customer 9 is 4.
+Minute 21:
+  => Customer 10 call.
+  => Estimate wait time for customer 10 is 6.
+Minute 22:
+  => Customer 7 completed.
+  => Serving customer 8.
+Minute 23:
+  => Customer 11 call.
+  => Estimate wait time for customer 11 is 6.
+Minute 24:
+Minute 25:
+  => Customer 8 completed.
+  => Serving customer 9.
+Minute 26:
+  => Customer 12 call.
+  => Estimate wait time for customer 12 is 6.
+  => Customer 9 completed.
+  => Serving customer 10.
+Minute 27:
+Minute 28:
+Minute 29:
+  => Customer 10 completed.
+  => Serving customer 11.
+Minute 30:
+  => Customer 13 call.
+  => Estimate wait time for customer 13 is 4.
+  => Customer 11 completed.
+  => Serving customer 12.
+
+End of Program Report
+=================================================
+Numbers of customers called: 			13
+Numbers of customers served: 			11
+Number of customers left in line: 		1
+Maximum number of customers in line: 	3
+Longest wait time for a customer: 		6
+Average wait time for customers: 		2.54545

@@ -1,0 +1,1905 @@
+Project 3: Queues & Simulation
+By Mai Pham
+
+Minute 1:
+Minute 2:
+  => Customer 1 call.
+  => Estimate wait time for customer 1 is 0.
+  => Serving customer 1.
+Minute 3:
+Minute 4:
+  => Customer 2 call.
+  => Estimate wait time for customer 2 is 2.
+  => Customer 1 completed.
+  => Serving customer 2.
+Minute 5:
+Minute 6:
+Minute 7:
+  => Customer 2 completed.
+Minute 8:
+  => Customer 3 call.
+  => Estimate wait time for customer 3 is 0.
+  => Serving customer 3.
+Minute 9:
+Minute 10:
+  => Customer 4 call.
+  => Estimate wait time for customer 4 is 2.
+Minute 11:
+  => Customer 3 completed.
+  => Serving customer 4.
+Minute 12:
+Minute 13:
+Minute 14:
+  => Customer 5 call.
+  => Estimate wait time for customer 5 is 3.
+Minute 15:
+  => Customer 4 completed.
+  => Serving customer 5.
+Minute 16:
+  => Customer 6 call.
+  => Estimate wait time for customer 6 is 3.
+Minute 17:
+  => Customer 7 call.
+  => Estimate wait time for customer 7 is 6.
+Minute 18:
+  => Customer 8 call.
+  => Estimate wait time for customer 8 is 9.
+Minute 19:
+  => Customer 5 completed.
+  => Serving customer 6.
+Minute 20:
+Minute 21:
+  => Customer 9 call.
+  => Estimate wait time for customer 9 is 9.
+  => Customer 6 completed.
+  => Serving customer 7.
+Minute 22:
+  => Customer 10 call.
+  => Estimate wait time for customer 10 is 6.
+Minute 23:
+  => Customer 7 completed.
+  => Serving customer 8.
+Minute 24:
+Minute 25:
+  => Customer 8 completed.
+  => Serving customer 9.
+Minute 26:
+  => Customer 11 call.
+  => Estimate wait time for customer 11 is 4.
+Minute 27:
+Minute 28:
+  => Customer 12 call.
+  => Estimate wait time for customer 12 is 6.
+  => Customer 9 completed.
+  => Serving customer 10.
+Minute 29:
+Minute 30:
+  => Customer 13 call.
+  => Estimate wait time for customer 13 is 6.
+Minute 31:
+  => Customer 14 call.
+  => Estimate wait time for customer 14 is 8.
+Minute 32:
+  => Customer 15 call.
+  => Estimate wait time for customer 15 is 10.
+  => Customer 10 completed.
+  => Serving customer 11.
+Minute 33:
+  => Customer 16 call.
+  => Estimate wait time for customer 16 is 15.
+Minute 34:
+  => Customer 17 call.
+  => Estimate wait time for customer 17 is 18.
+Minute 35:
+Minute 36:
+  => Customer 11 completed.
+  => Serving customer 12.
+Minute 37:
+  => Customer 12 completed.
+  => Serving customer 13.
+Minute 38:
+  => Customer 18 call.
+  => Estimate wait time for customer 18 is 10.
+Minute 39:
+  => Customer 13 completed.
+  => Serving customer 14.
+Minute 40:
+  => Customer 19 call.
+  => Estimate wait time for customer 19 is 10.
+  => Customer 14 completed.
+  => Serving customer 15.
+Minute 41:
+  => Customer 20 call.
+  => Estimate wait time for customer 20 is 10.
+Minute 42:
+Minute 43:
+  => Customer 15 completed.
+  => Serving customer 16.
+Minute 44:
+Minute 45:
+  => Customer 21 call.
+  => Estimate wait time for customer 21 is 10.
+Minute 46:
+  => Customer 16 completed.
+  => Serving customer 17.
+Minute 47:
+  => Customer 17 completed.
+  => Serving customer 18.
+Minute 48:
+  => Customer 22 call.
+  => Estimate wait time for customer 22 is 8.
+Minute 49:
+  => Customer 23 call.
+  => Estimate wait time for customer 23 is 10.
+Minute 50:
+Minute 51:
+  => Customer 24 call.
+  => Estimate wait time for customer 24 is 12.
+  => Customer 18 completed.
+  => Serving customer 19.
+Minute 52:
+Minute 53:
+Minute 54:
+  => Customer 25 call.
+  => Estimate wait time for customer 25 is 12.
+  => Customer 19 completed.
+  => Serving customer 20.
+Minute 55:
+Minute 56:
+  => Customer 20 completed.
+  => Serving customer 21.
+Minute 57:
+  => Customer 21 completed.
+  => Serving customer 22.
+Minute 58:
+  => Customer 26 call.
+  => Estimate wait time for customer 26 is 8.
+Minute 59:
+  => Customer 22 completed.
+  => Serving customer 23.
+Minute 60:
+  => Customer 27 call.
+  => Estimate wait time for customer 27 is 8.
+Minute 61:
+Minute 62:
+  => Customer 23 completed.
+  => Serving customer 24.
+Minute 63:
+  => Customer 28 call.
+  => Estimate wait time for customer 28 is 8.
+  => Customer 24 completed.
+  => Serving customer 25.
+Minute 64:
+Minute 65:
+Minute 66:
+  => Customer 25 completed.
+  => Serving customer 26.
+Minute 67:
+  => Customer 29 call.
+  => Estimate wait time for customer 29 is 6.
+Minute 68:
+Minute 69:
+  => Customer 26 completed.
+  => Serving customer 27.
+Minute 70:
+  => Customer 30 call.
+  => Estimate wait time for customer 30 is 6.
+  => Customer 27 completed.
+  => Serving customer 28.
+Minute 71:
+  => Customer 31 call.
+  => Estimate wait time for customer 31 is 6.
+Minute 72:
+Minute 73:
+  => Customer 32 call.
+  => Estimate wait time for customer 32 is 8.
+Minute 74:
+  => Customer 28 completed.
+  => Serving customer 29.
+Minute 75:
+  => Customer 29 completed.
+  => Serving customer 30.
+Minute 76:
+Minute 77:
+  => Customer 33 call.
+  => Estimate wait time for customer 33 is 6.
+Minute 78:
+Minute 79:
+  => Customer 34 call.
+  => Estimate wait time for customer 34 is 8.
+  => Customer 30 completed.
+  => Serving customer 31.
+Minute 80:
+Minute 81:
+Minute 82:
+Minute 83:
+  => Customer 35 call.
+  => Estimate wait time for customer 35 is 8.
+  => Customer 31 completed.
+  => Serving customer 32.
+Minute 84:
+Minute 85:
+  => Customer 36 call.
+  => Estimate wait time for customer 36 is 8.
+Minute 86:
+Minute 87:
+  => Customer 32 completed.
+  => Serving customer 33.
+Minute 88:
+  => Customer 37 call.
+  => Estimate wait time for customer 37 is 8.
+  => Customer 33 completed.
+  => Serving customer 34.
+Minute 89:
+  => Customer 34 completed.
+  => Serving customer 35.
+Minute 90:
+  => Customer 38 call.
+  => Estimate wait time for customer 38 is 6.
+  => Customer 35 completed.
+  => Serving customer 36.
+Minute 91:
+Minute 92:
+  => Customer 39 call.
+  => Estimate wait time for customer 39 is 6.
+Minute 93:
+  => Customer 40 call.
+  => Estimate wait time for customer 40 is 8.
+Minute 94:
+  => Customer 36 completed.
+  => Serving customer 37.
+Minute 95:
+Minute 96:
+  => Customer 41 call.
+  => Estimate wait time for customer 41 is 8.
+  => Customer 37 completed.
+  => Serving customer 38.
+Minute 97:
+  => Customer 38 completed.
+  => Serving customer 39.
+Minute 98:
+Minute 99:
+Minute 100:
+  => Customer 42 call.
+  => Estimate wait time for customer 42 is 6.
+Minute 101:
+  => Customer 43 call.
+  => Estimate wait time for customer 43 is 8.
+  => Customer 39 completed.
+  => Serving customer 40.
+Minute 102:
+Minute 103:
+  => Customer 44 call.
+  => Estimate wait time for customer 44 is 8.
+Minute 104:
+Minute 105:
+  => Customer 40 completed.
+  => Serving customer 41.
+Minute 106:
+Minute 107:
+  => Customer 45 call.
+  => Estimate wait time for customer 45 is 8.
+Minute 108:
+  => Customer 41 completed.
+  => Serving customer 42.
+Minute 109:
+Minute 110:
+Minute 111:
+  => Customer 46 call.
+  => Estimate wait time for customer 46 is 8.
+  => Customer 42 completed.
+  => Serving customer 43.
+Minute 112:
+  => Customer 47 call.
+  => Estimate wait time for customer 47 is 8.
+Minute 113:
+  => Customer 48 call.
+  => Estimate wait time for customer 48 is 10.
+  => Customer 43 completed.
+  => Serving customer 44.
+Minute 114:
+  => Customer 49 call.
+  => Estimate wait time for customer 49 is 10.
+Minute 115:
+Minute 116:
+  => Customer 44 completed.
+  => Serving customer 45.
+Minute 117:
+Minute 118:
+  => Customer 50 call.
+  => Estimate wait time for customer 50 is 10.
+  => Customer 45 completed.
+  => Serving customer 46.
+Minute 119:
+Minute 120:
+  => Customer 46 completed.
+  => Serving customer 47.
+Minute 121:
+  => Customer 51 call.
+  => Estimate wait time for customer 51 is 8.
+Minute 122:
+  => Customer 47 completed.
+  => Serving customer 48.
+Minute 123:
+  => Customer 48 completed.
+  => Serving customer 49.
+Minute 124:
+Minute 125:
+  => Customer 52 call.
+  => Estimate wait time for customer 52 is 6.
+Minute 126:
+  => Customer 53 call.
+  => Estimate wait time for customer 53 is 8.
+Minute 127:
+  => Customer 49 completed.
+  => Serving customer 50.
+Minute 128:
+Minute 129:
+  => Customer 54 call.
+  => Estimate wait time for customer 54 is 8.
+Minute 130:
+  => Customer 55 call.
+  => Estimate wait time for customer 55 is 10.
+  => Customer 50 completed.
+  => Serving customer 51.
+Minute 131:
+Minute 132:
+  => Customer 51 completed.
+  => Serving customer 52.
+Minute 133:
+Minute 134:
+  => Customer 56 call.
+  => Estimate wait time for customer 56 is 8.
+Minute 135:
+  => Customer 52 completed.
+  => Serving customer 53.
+Minute 136:
+Minute 137:
+  => Customer 57 call.
+  => Estimate wait time for customer 57 is 8.
+  => Customer 53 completed.
+  => Serving customer 54.
+Minute 138:
+Minute 139:
+Minute 140:
+  => Customer 58 call.
+  => Estimate wait time for customer 58 is 8.
+Minute 141:
+  => Customer 54 completed.
+  => Serving customer 55.
+Minute 142:
+Minute 143:
+  => Customer 59 call.
+  => Estimate wait time for customer 59 is 8.
+  => Customer 55 completed.
+  => Serving customer 56.
+Minute 144:
+Minute 145:
+  => Customer 60 call.
+  => Estimate wait time for customer 60 is 8.
+Minute 146:
+  => Customer 56 completed.
+  => Serving customer 57.
+Minute 147:
+  => Customer 57 completed.
+  => Serving customer 58.
+Minute 148:
+Minute 149:
+  => Customer 61 call.
+  => Estimate wait time for customer 61 is 6.
+Minute 150:
+  => Customer 58 completed.
+  => Serving customer 59.
+Minute 151:
+Minute 152:
+  => Customer 62 call.
+  => Estimate wait time for customer 62 is 6.
+Minute 153:
+  => Customer 63 call.
+  => Estimate wait time for customer 63 is 8.
+  => Customer 59 completed.
+  => Serving customer 60.
+Minute 154:
+Minute 155:
+  => Customer 64 call.
+  => Estimate wait time for customer 64 is 8.
+Minute 156:
+Minute 157:
+  => Customer 65 call.
+  => Estimate wait time for customer 65 is 10.
+  => Customer 60 completed.
+  => Serving customer 61.
+Minute 158:
+Minute 159:
+  => Customer 66 call.
+  => Estimate wait time for customer 66 is 10.
+Minute 160:
+Minute 161:
+  => Customer 67 call.
+  => Estimate wait time for customer 67 is 12.
+  => Customer 61 completed.
+  => Serving customer 62.
+Minute 162:
+Minute 163:
+Minute 164:
+  => Customer 68 call.
+  => Estimate wait time for customer 68 is 12.
+  => Customer 62 completed.
+  => Serving customer 63.
+Minute 165:
+  => Customer 63 completed.
+  => Serving customer 64.
+Minute 166:
+Minute 167:
+  => Customer 69 call.
+  => Estimate wait time for customer 69 is 10.
+Minute 168:
+Minute 169:
+  => Customer 70 call.
+  => Estimate wait time for customer 70 is 12.
+  => Customer 64 completed.
+  => Serving customer 65.
+Minute 170:
+Minute 171:
+Minute 172:
+  => Customer 71 call.
+  => Estimate wait time for customer 71 is 12.
+  => Customer 65 completed.
+  => Serving customer 66.
+Minute 173:
+  => Customer 66 completed.
+  => Serving customer 67.
+Minute 174:
+Minute 175:
+  => Customer 67 completed.
+  => Serving customer 68.
+Minute 176:
+  => Customer 72 call.
+  => Estimate wait time for customer 72 is 8.
+Minute 177:
+  => Customer 68 completed.
+  => Serving customer 69.
+Minute 178:
+  => Customer 73 call.
+  => Estimate wait time for customer 73 is 8.
+Minute 179:
+Minute 180:
+  => Customer 69 completed.
+  => Serving customer 70.
+Minute 181:
+  => Customer 74 call.
+  => Estimate wait time for customer 74 is 8.
+Minute 182:
+Minute 183:
+Minute 184:
+  => Customer 75 call.
+  => Estimate wait time for customer 75 is 10.
+  => Customer 70 completed.
+  => Serving customer 71.
+Minute 185:
+Minute 186:
+Minute 187:
+  => Customer 76 call.
+  => Estimate wait time for customer 76 is 10.
+Minute 188:
+  => Customer 77 call.
+  => Estimate wait time for customer 77 is 12.
+  => Customer 71 completed.
+  => Serving customer 72.
+Minute 189:
+Minute 190:
+Minute 191:
+  => Customer 78 call.
+  => Estimate wait time for customer 78 is 12.
+Minute 192:
+  => Customer 72 completed.
+  => Serving customer 73.
+Minute 193:
+  => Customer 79 call.
+  => Estimate wait time for customer 79 is 12.
+Minute 194:
+Minute 195:
+  => Customer 80 call.
+  => Estimate wait time for customer 80 is 14.
+Minute 196:
+  => Customer 81 call.
+  => Estimate wait time for customer 81 is 16.
+  => Customer 73 completed.
+  => Serving customer 74.
+Minute 197:
+  => Customer 74 completed.
+  => Serving customer 75.
+Minute 198:
+  => Customer 75 completed.
+  => Serving customer 76.
+Minute 199:
+Minute 200:
+  => Customer 82 call.
+  => Estimate wait time for customer 82 is 12.
+  => Customer 76 completed.
+  => Serving customer 77.
+Minute 201:
+  => Customer 83 call.
+  => Estimate wait time for customer 83 is 12.
+Minute 202:
+  => Customer 77 completed.
+  => Serving customer 78.
+Minute 203:
+Minute 204:
+Minute 205:
+  => Customer 84 call.
+  => Estimate wait time for customer 84 is 12.
+Minute 206:
+  => Customer 78 completed.
+  => Serving customer 79.
+Minute 207:
+  => Customer 85 call.
+  => Estimate wait time for customer 85 is 12.
+Minute 208:
+Minute 209:
+Minute 210:
+  => Customer 86 call.
+  => Estimate wait time for customer 86 is 14.
+  => Customer 79 completed.
+  => Serving customer 80.
+Minute 211:
+Minute 212:
+Minute 213:
+  => Customer 80 completed.
+  => Serving customer 81.
+Minute 214:
+  => Customer 87 call.
+  => Estimate wait time for customer 87 is 12.
+Minute 215:
+Minute 216:
+  => Customer 81 completed.
+  => Serving customer 82.
+Minute 217:
+  => Customer 88 call.
+  => Estimate wait time for customer 88 is 12.
+  => Customer 82 completed.
+  => Serving customer 83.
+Minute 218:
+Minute 219:
+Minute 220:
+Minute 221:
+  => Customer 89 call.
+  => Estimate wait time for customer 89 is 12.
+  => Customer 83 completed.
+  => Serving customer 84.
+Minute 222:
+  => Customer 90 call.
+  => Estimate wait time for customer 90 is 12.
+Minute 223:
+  => Customer 91 call.
+  => Estimate wait time for customer 91 is 14.
+  => Customer 84 completed.
+  => Serving customer 85.
+Minute 224:
+  => Customer 92 call.
+  => Estimate wait time for customer 92 is 14.
+Minute 225:
+  => Customer 93 call.
+  => Estimate wait time for customer 93 is 16.
+  => Customer 85 completed.
+  => Serving customer 86.
+Minute 226:
+  => Customer 94 call.
+  => Estimate wait time for customer 94 is 16.
+Minute 227:
+  => Customer 95 call.
+  => Estimate wait time for customer 95 is 18.
+Minute 228:
+Minute 229:
+  => Customer 86 completed.
+  => Serving customer 87.
+Minute 230:
+  => Customer 96 call.
+  => Estimate wait time for customer 96 is 18.
+  => Customer 87 completed.
+  => Serving customer 88.
+Minute 231:
+  => Customer 97 call.
+  => Estimate wait time for customer 97 is 18.
+Minute 232:
+  => Customer 98 call.
+  => Estimate wait time for customer 98 is 20.
+  => Customer 88 completed.
+  => Serving customer 89.
+Minute 233:
+Minute 234:
+  => Customer 99 call.
+  => Estimate wait time for customer 99 is 20.
+  => Customer 89 completed.
+  => Serving customer 90.
+Minute 235:
+Minute 236:
+  => Customer 100 call.
+  => Estimate wait time for customer 100 is 20.
+  => Customer 90 completed.
+  => Serving customer 91.
+Minute 237:
+Minute 238:
+Minute 239:
+  => Customer 101 call.
+  => Estimate wait time for customer 101 is 20.
+  => Customer 91 completed.
+  => Serving customer 92.
+Minute 240:
+  => Customer 92 completed.
+  => Serving customer 93.
+Minute 241:
+  => Customer 102 call.
+  => Estimate wait time for customer 102 is 18.
+Minute 242:
+  => Customer 103 call.
+  => Estimate wait time for customer 103 is 20.
+Minute 243:
+Minute 244:
+  => Customer 93 completed.
+  => Serving customer 94.
+Minute 245:
+Minute 246:
+  => Customer 104 call.
+  => Estimate wait time for customer 104 is 20.
+Minute 247:
+  => Customer 94 completed.
+  => Serving customer 95.
+Minute 248:
+Minute 249:
+  => Customer 95 completed.
+  => Serving customer 96.
+Minute 250:
+  => Customer 105 call.
+  => Estimate wait time for customer 105 is 18.
+Minute 251:
+Minute 252:
+Minute 253:
+  => Customer 96 completed.
+  => Serving customer 97.
+Minute 254:
+  => Customer 106 call.
+  => Estimate wait time for customer 106 is 18.
+  => Customer 97 completed.
+  => Serving customer 98.
+Minute 255:
+  => Customer 107 call.
+  => Estimate wait time for customer 107 is 18.
+Minute 256:
+Minute 257:
+  => Customer 108 call.
+  => Estimate wait time for customer 108 is 20.
+  => Customer 98 completed.
+  => Serving customer 99.
+Minute 258:
+Minute 259:
+  => Customer 99 completed.
+  => Serving customer 100.
+Minute 260:
+  => Customer 100 completed.
+  => Serving customer 101.
+Minute 261:
+  => Customer 109 call.
+  => Estimate wait time for customer 109 is 16.
+Minute 262:
+Minute 263:
+Minute 264:
+  => Customer 101 completed.
+  => Serving customer 102.
+Minute 265:
+  => Customer 110 call.
+  => Estimate wait time for customer 110 is 16.
+Minute 266:
+  => Customer 111 call.
+  => Estimate wait time for customer 111 is 18.
+Minute 267:
+Minute 268:
+  => Customer 102 completed.
+  => Serving customer 103.
+Minute 269:
+  => Customer 103 completed.
+  => Serving customer 104.
+Minute 270:
+  => Customer 112 call.
+  => Estimate wait time for customer 112 is 16.
+Minute 271:
+  => Customer 104 completed.
+  => Serving customer 105.
+Minute 272:
+Minute 273:
+Minute 274:
+  => Customer 113 call.
+  => Estimate wait time for customer 113 is 16.
+  => Customer 105 completed.
+  => Serving customer 106.
+Minute 275:
+Minute 276:
+  => Customer 114 call.
+  => Estimate wait time for customer 114 is 16.
+Minute 277:
+  => Customer 106 completed.
+  => Serving customer 107.
+Minute 278:
+Minute 279:
+  => Customer 107 completed.
+  => Serving customer 108.
+Minute 280:
+  => Customer 115 call.
+  => Estimate wait time for customer 115 is 14.
+  => Customer 108 completed.
+  => Serving customer 109.
+Minute 281:
+Minute 282:
+  => Customer 109 completed.
+  => Serving customer 110.
+Minute 283:
+  => Customer 116 call.
+  => Estimate wait time for customer 116 is 12.
+Minute 284:
+  => Customer 117 call.
+  => Estimate wait time for customer 117 is 14.
+Minute 285:
+Minute 286:
+  => Customer 118 call.
+  => Estimate wait time for customer 118 is 16.
+  => Customer 110 completed.
+  => Serving customer 111.
+Minute 287:
+  => Customer 111 completed.
+  => Serving customer 112.
+Minute 288:
+Minute 289:
+  => Customer 119 call.
+  => Estimate wait time for customer 119 is 14.
+Minute 290:
+  => Customer 112 completed.
+  => Serving customer 113.
+Minute 291:
+  => Customer 120 call.
+  => Estimate wait time for customer 120 is 14.
+  => Customer 113 completed.
+  => Serving customer 114.
+Minute 292:
+Minute 293:
+  => Customer 114 completed.
+  => Serving customer 115.
+Minute 294:
+  => Customer 121 call.
+  => Estimate wait time for customer 121 is 12.
+Minute 295:
+  => Customer 115 completed.
+  => Serving customer 116.
+Minute 296:
+Minute 297:
+  => Customer 122 call.
+  => Estimate wait time for customer 122 is 12.
+Minute 298:
+  => Customer 116 completed.
+  => Serving customer 117.
+Minute 299:
+Minute 300:
+  => Customer 123 call.
+  => Estimate wait time for customer 123 is 12.
+Minute 301:
+  => Customer 124 call.
+  => Estimate wait time for customer 124 is 14.
+Minute 302:
+  => Customer 117 completed.
+  => Serving customer 118.
+Minute 303:
+Minute 304:
+  => Customer 125 call.
+  => Estimate wait time for customer 125 is 14.
+Minute 305:
+Minute 306:
+  => Customer 126 call.
+  => Estimate wait time for customer 126 is 16.
+  => Customer 118 completed.
+  => Serving customer 119.
+Minute 307:
+Minute 308:
+Minute 309:
+  => Customer 119 completed.
+  => Serving customer 120.
+Minute 310:
+  => Customer 127 call.
+  => Estimate wait time for customer 127 is 14.
+Minute 311:
+  => Customer 128 call.
+  => Estimate wait time for customer 128 is 16.
+Minute 312:
+Minute 313:
+  => Customer 120 completed.
+  => Serving customer 121.
+Minute 314:
+  => Customer 121 completed.
+  => Serving customer 122.
+Minute 315:
+  => Customer 129 call.
+  => Estimate wait time for customer 129 is 14.
+Minute 316:
+Minute 317:
+  => Customer 122 completed.
+  => Serving customer 123.
+Minute 318:
+Minute 319:
+  => Customer 130 call.
+  => Estimate wait time for customer 130 is 14.
+  => Customer 123 completed.
+  => Serving customer 124.
+Minute 320:
+Minute 321:
+  => Customer 131 call.
+  => Estimate wait time for customer 131 is 14.
+Minute 322:
+Minute 323:
+  => Customer 124 completed.
+  => Serving customer 125.
+Minute 324:
+  => Customer 132 call.
+  => Estimate wait time for customer 132 is 14.
+  => Customer 125 completed.
+  => Serving customer 126.
+Minute 325:
+  => Customer 133 call.
+  => Estimate wait time for customer 133 is 14.
+Minute 326:
+Minute 327:
+Minute 328:
+  => Customer 126 completed.
+  => Serving customer 127.
+Minute 329:
+  => Customer 134 call.
+  => Estimate wait time for customer 134 is 14.
+Minute 330:
+Minute 331:
+  => Customer 127 completed.
+  => Serving customer 128.
+Minute 332:
+  => Customer 135 call.
+  => Estimate wait time for customer 135 is 14.
+  => Customer 128 completed.
+  => Serving customer 129.
+Minute 333:
+  => Customer 136 call.
+  => Estimate wait time for customer 136 is 14.
+  => Customer 129 completed.
+  => Serving customer 130.
+Minute 334:
+Minute 335:
+Minute 336:
+  => Customer 137 call.
+  => Estimate wait time for customer 137 is 14.
+Minute 337:
+  => Customer 130 completed.
+  => Serving customer 131.
+Minute 338:
+  => Customer 138 call.
+  => Estimate wait time for customer 138 is 14.
+Minute 339:
+  => Customer 139 call.
+  => Estimate wait time for customer 139 is 16.
+Minute 340:
+  => Customer 140 call.
+  => Estimate wait time for customer 140 is 18.
+Minute 341:
+  => Customer 141 call.
+  => Estimate wait time for customer 141 is 20.
+  => Customer 131 completed.
+  => Serving customer 132.
+Minute 342:
+  => Customer 142 call.
+  => Estimate wait time for customer 142 is 20.
+Minute 343:
+  => Customer 132 completed.
+  => Serving customer 133.
+Minute 344:
+Minute 345:
+  => Customer 143 call.
+  => Estimate wait time for customer 143 is 20.
+Minute 346:
+  => Customer 133 completed.
+  => Serving customer 134.
+Minute 347:
+  => Customer 144 call.
+  => Estimate wait time for customer 144 is 20.
+Minute 348:
+  => Customer 134 completed.
+  => Serving customer 135.
+Minute 349:
+Minute 350:
+  => Customer 145 call.
+  => Estimate wait time for customer 145 is 20.
+Minute 351:
+  => Customer 135 completed.
+  => Serving customer 136.
+Minute 352:
+  => Customer 136 completed.
+  => Serving customer 137.
+Minute 353:
+Minute 354:
+  => Customer 146 call.
+  => Estimate wait time for customer 146 is 18.
+Minute 355:
+  => Customer 147 call.
+  => Estimate wait time for customer 147 is 20.
+  => Customer 137 completed.
+  => Serving customer 138.
+Minute 356:
+Minute 357:
+  => Customer 148 call.
+  => Estimate wait time for customer 148 is 20.
+  => Customer 138 completed.
+  => Serving customer 139.
+Minute 358:
+Minute 359:
+  => Customer 149 call.
+  => Estimate wait time for customer 149 is 20.
+Minute 360:
+  => Customer 139 completed.
+  => Serving customer 140.
+Minute 361:
+  => Customer 150 call.
+  => Estimate wait time for customer 150 is 20.
+Minute 362:
+Minute 363:
+Minute 364:
+  => Customer 140 completed.
+  => Serving customer 141.
+Minute 365:
+  => Customer 151 call.
+  => Estimate wait time for customer 151 is 20.
+  => Customer 141 completed.
+  => Serving customer 142.
+Minute 366:
+Minute 367:
+Minute 368:
+  => Customer 142 completed.
+  => Serving customer 143.
+Minute 369:
+  => Customer 152 call.
+  => Estimate wait time for customer 152 is 18.
+Minute 370:
+  => Customer 153 call.
+  => Estimate wait time for customer 153 is 20.
+  => Customer 143 completed.
+  => Serving customer 144.
+Minute 371:
+  => Customer 144 completed.
+  => Serving customer 145.
+Minute 372:
+Minute 373:
+Minute 374:
+  => Customer 154 call.
+  => Estimate wait time for customer 154 is 18.
+Minute 375:
+  => Customer 145 completed.
+  => Serving customer 146.
+Minute 376:
+Minute 377:
+Minute 378:
+  => Customer 155 call.
+  => Estimate wait time for customer 155 is 18.
+  => Customer 146 completed.
+  => Serving customer 147.
+Minute 379:
+  => Customer 156 call.
+  => Estimate wait time for customer 156 is 18.
+Minute 380:
+Minute 381:
+  => Customer 157 call.
+  => Estimate wait time for customer 157 is 20.
+  => Customer 147 completed.
+  => Serving customer 148.
+Minute 382:
+  => Customer 158 call.
+  => Estimate wait time for customer 158 is 20.
+Minute 383:
+  => Customer 148 completed.
+  => Serving customer 149.
+Minute 384:
+Minute 385:
+  => Customer 159 call.
+  => Estimate wait time for customer 159 is 20.
+  => Customer 149 completed.
+  => Serving customer 150.
+Minute 386:
+Minute 387:
+  => Customer 150 completed.
+  => Serving customer 151.
+Minute 388:
+  => Customer 160 call.
+  => Estimate wait time for customer 160 is 18.
+  => Customer 151 completed.
+  => Serving customer 152.
+Minute 389:
+Minute 390:
+  => Customer 161 call.
+  => Estimate wait time for customer 161 is 18.
+Minute 391:
+Minute 392:
+  => Customer 152 completed.
+  => Serving customer 153.
+Minute 393:
+  => Customer 162 call.
+  => Estimate wait time for customer 162 is 18.
+Minute 394:
+  => Customer 153 completed.
+  => Serving customer 154.
+Minute 395:
+Minute 396:
+  => Customer 154 completed.
+  => Serving customer 155.
+Minute 397:
+  => Customer 163 call.
+  => Estimate wait time for customer 163 is 16.
+  => Customer 155 completed.
+  => Serving customer 156.
+Minute 398:
+Minute 399:
+Minute 400:
+  => Customer 164 call.
+  => Estimate wait time for customer 164 is 16.
+Minute 401:
+  => Customer 165 call.
+  => Estimate wait time for customer 165 is 18.
+  => Customer 156 completed.
+  => Serving customer 157.
+Minute 402:
+Minute 403:
+Minute 404:
+  => Customer 166 call.
+  => Estimate wait time for customer 166 is 18.
+  => Customer 157 completed.
+  => Serving customer 158.
+Minute 405:
+  => Customer 167 call.
+  => Estimate wait time for customer 167 is 18.
+  => Customer 158 completed.
+  => Serving customer 159.
+Minute 406:
+  => Customer 168 call.
+  => Estimate wait time for customer 168 is 18.
+Minute 407:
+Minute 408:
+Minute 409:
+  => Customer 159 completed.
+  => Serving customer 160.
+Minute 410:
+  => Customer 169 call.
+  => Estimate wait time for customer 169 is 18.
+Minute 411:
+Minute 412:
+  => Customer 170 call.
+  => Estimate wait time for customer 170 is 20.
+  => Customer 160 completed.
+  => Serving customer 161.
+Minute 413:
+Minute 414:
+  => Customer 171 call.
+  => Estimate wait time for customer 171 is 20.
+Minute 415:
+  => Customer 172 call.
+  => Estimate wait time for customer 172 is 22.
+Minute 416:
+  => Customer 161 completed.
+  => Serving customer 162.
+Minute 417:
+Minute 418:
+Minute 419:
+  => Customer 173 call.
+  => Estimate wait time for customer 173 is 22.
+  => Customer 162 completed.
+  => Serving customer 163.
+Minute 420:
+  => Customer 174 call.
+  => Estimate wait time for customer 174 is 22.
+Minute 421:
+  => Customer 175 call.
+  => Estimate wait time for customer 175 is 24.
+Minute 422:
+  => Customer 176 call.
+  => Estimate wait time for customer 176 is 26.
+  => Customer 163 completed.
+  => Serving customer 164.
+Minute 423:
+  => Customer 177 call.
+  => Estimate wait time for customer 177 is 26.
+Minute 424:
+  => Customer 164 completed.
+  => Serving customer 165.
+Minute 425:
+Minute 426:
+  => Customer 178 call.
+  => Estimate wait time for customer 178 is 26.
+  => Customer 165 completed.
+  => Serving customer 166.
+Minute 427:
+Minute 428:
+Minute 429:
+  => Customer 166 completed.
+  => Serving customer 167.
+Minute 430:
+  => Customer 179 call.
+  => Estimate wait time for customer 179 is 24.
+  => Customer 167 completed.
+  => Serving customer 168.
+Minute 431:
+Minute 432:
+Minute 433:
+  => Customer 180 call.
+  => Estimate wait time for customer 180 is 24.
+  => Customer 168 completed.
+  => Serving customer 169.
+Minute 434:
+  => Customer 181 call.
+  => Estimate wait time for customer 181 is 24.
+  => Customer 169 completed.
+  => Serving customer 170.
+Minute 435:
+  => Customer 170 completed.
+  => Serving customer 171.
+Minute 436:
+  => Customer 182 call.
+  => Estimate wait time for customer 182 is 22.
+  => Customer 171 completed.
+  => Serving customer 172.
+Minute 437:
+  => Customer 183 call.
+  => Estimate wait time for customer 183 is 22.
+  => Customer 172 completed.
+  => Serving customer 173.
+Minute 438:
+  => Customer 184 call.
+  => Estimate wait time for customer 184 is 22.
+Minute 439:
+  => Customer 185 call.
+  => Estimate wait time for customer 185 is 24.
+Minute 440:
+Minute 441:
+  => Customer 173 completed.
+  => Serving customer 174.
+Minute 442:
+Minute 443:
+  => Customer 186 call.
+  => Estimate wait time for customer 186 is 24.
+Minute 444:
+  => Customer 174 completed.
+  => Serving customer 175.
+Minute 445:
+  => Customer 175 completed.
+  => Serving customer 176.
+Minute 446:
+  => Customer 176 completed.
+  => Serving customer 177.
+Minute 447:
+  => Customer 187 call.
+  => Estimate wait time for customer 187 is 20.
+Minute 448:
+Minute 449:
+  => Customer 188 call.
+  => Estimate wait time for customer 188 is 22.
+Minute 450:
+  => Customer 177 completed.
+  => Serving customer 178.
+Minute 451:
+Minute 452:
+  => Customer 189 call.
+  => Estimate wait time for customer 189 is 22.
+Minute 453:
+  => Customer 178 completed.
+  => Serving customer 179.
+Minute 454:
+  => Customer 190 call.
+  => Estimate wait time for customer 190 is 22.
+Minute 455:
+Minute 456:
+  => Customer 179 completed.
+  => Serving customer 180.
+Minute 457:
+  => Customer 180 completed.
+  => Serving customer 181.
+Minute 458:
+  => Customer 191 call.
+  => Estimate wait time for customer 191 is 20.
+  => Customer 181 completed.
+  => Serving customer 182.
+Minute 459:
+  => Customer 192 call.
+  => Estimate wait time for customer 192 is 20.
+Minute 460:
+  => Customer 182 completed.
+  => Serving customer 183.
+Minute 461:
+Minute 462:
+  => Customer 193 call.
+  => Estimate wait time for customer 193 is 20.
+Minute 463:
+Minute 464:
+  => Customer 183 completed.
+  => Serving customer 184.
+Minute 465:
+Minute 466:
+  => Customer 194 call.
+  => Estimate wait time for customer 194 is 20.
+  => Customer 184 completed.
+  => Serving customer 185.
+Minute 467:
+Minute 468:
+  => Customer 185 completed.
+  => Serving customer 186.
+Minute 469:
+Minute 470:
+  => Customer 195 call.
+  => Estimate wait time for customer 195 is 18.
+  => Customer 186 completed.
+  => Serving customer 187.
+Minute 471:
+Minute 472:
+  => Customer 196 call.
+  => Estimate wait time for customer 196 is 18.
+Minute 473:
+Minute 474:
+  => Customer 187 completed.
+  => Serving customer 188.
+Minute 475:
+  => Customer 197 call.
+  => Estimate wait time for customer 197 is 18.
+Minute 476:
+Minute 477:
+  => Customer 188 completed.
+  => Serving customer 189.
+Minute 478:
+Minute 479:
+  => Customer 198 call.
+  => Estimate wait time for customer 198 is 18.
+  => Customer 189 completed.
+  => Serving customer 190.
+Minute 480:
+Minute 481:
+  => Customer 190 completed.
+  => Serving customer 191.
+Minute 482:
+  => Customer 199 call.
+  => Estimate wait time for customer 199 is 16.
+Minute 483:
+Minute 484:
+  => Customer 200 call.
+  => Estimate wait time for customer 200 is 18.
+Minute 485:
+  => Customer 191 completed.
+  => Serving customer 192.
+Minute 486:
+Minute 487:
+Minute 488:
+  => Customer 201 call.
+  => Estimate wait time for customer 201 is 18.
+Minute 489:
+  => Customer 192 completed.
+  => Serving customer 193.
+Minute 490:
+  => Customer 193 completed.
+  => Serving customer 194.
+Minute 491:
+Minute 492:
+  => Customer 202 call.
+  => Estimate wait time for customer 202 is 16.
+Minute 493:
+  => Customer 203 call.
+  => Estimate wait time for customer 203 is 18.
+  => Customer 194 completed.
+  => Serving customer 195.
+Minute 494:
+  => Customer 204 call.
+  => Estimate wait time for customer 204 is 18.
+Minute 495:
+  => Customer 195 completed.
+  => Serving customer 196.
+Minute 496:
+  => Customer 205 call.
+  => Estimate wait time for customer 205 is 18.
+Minute 497:
+Minute 498:
+  => Customer 206 call.
+  => Estimate wait time for customer 206 is 20.
+Minute 499:
+  => Customer 196 completed.
+  => Serving customer 197.
+Minute 500:
+  => Customer 207 call.
+  => Estimate wait time for customer 207 is 20.
+Minute 501:
+  => Customer 197 completed.
+  => Serving customer 198.
+Minute 502:
+Minute 503:
+  => Customer 208 call.
+  => Estimate wait time for customer 208 is 20.
+Minute 504:
+Minute 505:
+  => Customer 198 completed.
+  => Serving customer 199.
+Minute 506:
+  => Customer 209 call.
+  => Estimate wait time for customer 209 is 20.
+Minute 507:
+Minute 508:
+  => Customer 199 completed.
+  => Serving customer 200.
+Minute 509:
+Minute 510:
+  => Customer 210 call.
+  => Estimate wait time for customer 210 is 20.
+  => Customer 200 completed.
+  => Serving customer 201.
+Minute 511:
+Minute 512:
+Minute 513:
+  => Customer 211 call.
+  => Estimate wait time for customer 211 is 20.
+  => Customer 201 completed.
+  => Serving customer 202.
+Minute 514:
+  => Customer 202 completed.
+  => Serving customer 203.
+Minute 515:
+  => Customer 203 completed.
+  => Serving customer 204.
+Minute 516:
+  => Customer 212 call.
+  => Estimate wait time for customer 212 is 16.
+Minute 517:
+  => Customer 213 call.
+  => Estimate wait time for customer 213 is 18.
+  => Customer 204 completed.
+  => Serving customer 205.
+Minute 518:
+  => Customer 214 call.
+  => Estimate wait time for customer 214 is 18.
+Minute 519:
+  => Customer 215 call.
+  => Estimate wait time for customer 215 is 20.
+Minute 520:
+Minute 521:
+  => Customer 216 call.
+  => Estimate wait time for customer 216 is 22.
+  => Customer 205 completed.
+  => Serving customer 206.
+Minute 522:
+  => Customer 206 completed.
+  => Serving customer 207.
+Minute 523:
+  => Customer 207 completed.
+  => Serving customer 208.
+Minute 524:
+  => Customer 208 completed.
+  => Serving customer 209.
+Minute 525:
+  => Customer 217 call.
+  => Estimate wait time for customer 217 is 16.
+Minute 526:
+Minute 527:
+  => Customer 209 completed.
+  => Serving customer 210.
+Minute 528:
+  => Customer 210 completed.
+  => Serving customer 211.
+Minute 529:
+  => Customer 218 call.
+  => Estimate wait time for customer 218 is 14.
+  => Customer 211 completed.
+  => Serving customer 212.
+Minute 530:
+  => Customer 212 completed.
+  => Serving customer 213.
+Minute 531:
+  => Customer 219 call.
+  => Estimate wait time for customer 219 is 12.
+Minute 532:
+  => Customer 213 completed.
+  => Serving customer 214.
+Minute 533:
+  => Customer 220 call.
+  => Estimate wait time for customer 220 is 12.
+Minute 534:
+Minute 535:
+  => Customer 221 call.
+  => Estimate wait time for customer 221 is 14.
+Minute 536:
+  => Customer 214 completed.
+  => Serving customer 215.
+Minute 537:
+Minute 538:
+  => Customer 222 call.
+  => Estimate wait time for customer 222 is 14.
+  => Customer 215 completed.
+  => Serving customer 216.
+Minute 539:
+Minute 540:
+Minute 541:
+  => Customer 216 completed.
+  => Serving customer 217.
+Minute 542:
+  => Customer 223 call.
+  => Estimate wait time for customer 223 is 12.
+Minute 543:
+  => Customer 217 completed.
+  => Serving customer 218.
+Minute 544:
+Minute 545:
+Minute 546:
+  => Customer 224 call.
+  => Estimate wait time for customer 224 is 12.
+  => Customer 218 completed.
+  => Serving customer 219.
+Minute 547:
+Minute 548:
+  => Customer 225 call.
+  => Estimate wait time for customer 225 is 12.
+  => Customer 219 completed.
+  => Serving customer 220.
+Minute 549:
+  => Customer 226 call.
+  => Estimate wait time for customer 226 is 12.
+Minute 550:
+Minute 551:
+  => Customer 227 call.
+  => Estimate wait time for customer 227 is 14.
+  => Customer 220 completed.
+  => Serving customer 221.
+Minute 552:
+  => Customer 221 completed.
+  => Serving customer 222.
+Minute 553:
+Minute 554:
+  => Customer 228 call.
+  => Estimate wait time for customer 228 is 12.
+Minute 555:
+  => Customer 222 completed.
+  => Serving customer 223.
+Minute 556:
+  => Customer 223 completed.
+  => Serving customer 224.
+Minute 557:
+  => Customer 229 call.
+  => Estimate wait time for customer 229 is 10.
+Minute 558:
+  => Customer 230 call.
+  => Estimate wait time for customer 230 is 12.
+Minute 559:
+Minute 560:
+  => Customer 231 call.
+  => Estimate wait time for customer 231 is 14.
+  => Customer 224 completed.
+  => Serving customer 225.
+Minute 561:
+  => Customer 232 call.
+  => Estimate wait time for customer 232 is 14.
+Minute 562:
+  => Customer 233 call.
+  => Estimate wait time for customer 233 is 16.
+  => Customer 225 completed.
+  => Serving customer 226.
+Minute 563:
+Minute 564:
+  => Customer 226 completed.
+  => Serving customer 227.
+Minute 565:
+  => Customer 234 call.
+  => Estimate wait time for customer 234 is 14.
+  => Customer 227 completed.
+  => Serving customer 228.
+Minute 566:
+Minute 567:
+  => Customer 235 call.
+  => Estimate wait time for customer 235 is 14.
+  => Customer 228 completed.
+  => Serving customer 229.
+Minute 568:
+  => Customer 236 call.
+  => Estimate wait time for customer 236 is 14.
+Minute 569:
+  => Customer 237 call.
+  => Estimate wait time for customer 237 is 16.
+Minute 570:
+  => Customer 229 completed.
+  => Serving customer 230.
+Minute 571:
+  => Customer 238 call.
+  => Estimate wait time for customer 238 is 16.
+Minute 572:
+  => Customer 239 call.
+  => Estimate wait time for customer 239 is 18.
+  => Customer 230 completed.
+  => Serving customer 231.
+Minute 573:
+Minute 574:
+  => Customer 231 completed.
+  => Serving customer 232.
+Minute 575:
+  => Customer 240 call.
+  => Estimate wait time for customer 240 is 16.
+Minute 576:
+  => Customer 241 call.
+  => Estimate wait time for customer 241 is 18.
+Minute 577:
+  => Customer 232 completed.
+  => Serving customer 233.
+Minute 578:
+Minute 579:
+Minute 580:
+  => Customer 242 call.
+  => Estimate wait time for customer 242 is 18.
+Minute 581:
+  => Customer 233 completed.
+  => Serving customer 234.
+Minute 582:
+  => Customer 234 completed.
+  => Serving customer 235.
+Minute 583:
+  => Customer 243 call.
+  => Estimate wait time for customer 243 is 16.
+Minute 584:
+  => Customer 235 completed.
+  => Serving customer 236.
+Minute 585:
+  => Customer 244 call.
+  => Estimate wait time for customer 244 is 16.
+Minute 586:
+Minute 587:
+  => Customer 245 call.
+  => Estimate wait time for customer 245 is 18.
+Minute 588:
+  => Customer 236 completed.
+  => Serving customer 237.
+Minute 589:
+  => Customer 237 completed.
+  => Serving customer 238.
+Minute 590:
+  => Customer 246 call.
+  => Estimate wait time for customer 246 is 16.
+Minute 591:
+  => Customer 238 completed.
+  => Serving customer 239.
+Minute 592:
+  => Customer 247 call.
+  => Estimate wait time for customer 247 is 16.
+Minute 593:
+Minute 594:
+  => Customer 239 completed.
+  => Serving customer 240.
+Minute 595:
+  => Customer 248 call.
+  => Estimate wait time for customer 248 is 16.
+  => Customer 240 completed.
+  => Serving customer 241.
+Minute 596:
+Minute 597:
+  => Customer 241 completed.
+  => Serving customer 242.
+Minute 598:
+  => Customer 242 completed.
+  => Serving customer 243.
+Minute 599:
+  => Customer 249 call.
+  => Estimate wait time for customer 249 is 12.
+  => Customer 243 completed.
+  => Serving customer 244.
+Minute 600:
+Minute 601:
+  => Customer 250 call.
+  => Estimate wait time for customer 250 is 12.
+Minute 602:
+  => Customer 251 call.
+  => Estimate wait time for customer 251 is 14.
+Minute 603:
+  => Customer 252 call.
+  => Estimate wait time for customer 252 is 16.
+  => Customer 244 completed.
+  => Serving customer 245.
+Minute 604:
+  => Customer 253 call.
+  => Estimate wait time for customer 253 is 16.
+  => Customer 245 completed.
+  => Serving customer 246.
+Minute 605:
+  => Customer 246 completed.
+  => Serving customer 247.
+Minute 606:
+Minute 607:
+Minute 608:
+  => Customer 254 call.
+  => Estimate wait time for customer 254 is 14.
+Minute 609:
+  => Customer 247 completed.
+  => Serving customer 248.
+Minute 610:
+  => Customer 248 completed.
+  => Serving customer 249.
+Minute 611:
+Minute 612:
+  => Customer 255 call.
+  => Estimate wait time for customer 255 is 12.
+Minute 613:
+  => Customer 249 completed.
+  => Serving customer 250.
+Minute 614:
+Minute 615:
+  => Customer 256 call.
+  => Estimate wait time for customer 256 is 12.
+  => Customer 250 completed.
+  => Serving customer 251.
+Minute 616:
+  => Customer 257 call.
+  => Estimate wait time for customer 257 is 12.
+  => Customer 251 completed.
+  => Serving customer 252.
+Minute 617:
+Minute 618:
+Minute 619:
+  => Customer 258 call.
+  => Estimate wait time for customer 258 is 12.
+Minute 620:
+  => Customer 252 completed.
+  => Serving customer 253.
+Minute 621:
+  => Customer 259 call.
+  => Estimate wait time for customer 259 is 12.
+Minute 622:
+  => Customer 253 completed.
+  => Serving customer 254.
+Minute 623:
+  => Customer 254 completed.
+  => Serving customer 255.
+Minute 624:
+  => Customer 260 call.
+  => Estimate wait time for customer 260 is 10.
+Minute 625:
+  => Customer 255 completed.
+  => Serving customer 256.
+Minute 626:
+Minute 627:
+Minute 628:
+  => Customer 261 call.
+  => Estimate wait time for customer 261 is 10.
+Minute 629:
+  => Customer 262 call.
+  => Estimate wait time for customer 262 is 12.
+  => Customer 256 completed.
+  => Serving customer 257.
+Minute 630:
+Minute 631:
+Minute 632:
+Minute 633:
+  => Customer 263 call.
+  => Estimate wait time for customer 263 is 12.
+  => Customer 257 completed.
+  => Serving customer 258.
+Minute 634:
+Minute 635:
+  => Customer 258 completed.
+  => Serving customer 259.
+Minute 636:
+  => Customer 264 call.
+  => Estimate wait time for customer 264 is 10.
+Minute 637:
+Minute 638:
+Minute 639:
+  => Customer 265 call.
+  => Estimate wait time for customer 265 is 12.
+  => Customer 259 completed.
+  => Serving customer 260.
+Minute 640:
+Minute 641:
+  => Customer 266 call.
+  => Estimate wait time for customer 266 is 12.
+Minute 642:
+Minute 643:
+  => Customer 260 completed.
+  => Serving customer 261.
+Minute 644:
+  => Customer 267 call.
+  => Estimate wait time for customer 267 is 12.
+  => Customer 261 completed.
+  => Serving customer 262.
+Minute 645:
+Minute 646:
+Minute 647:
+  => Customer 268 call.
+  => Estimate wait time for customer 268 is 12.
+Minute 648:
+  => Customer 262 completed.
+  => Serving customer 263.
+Minute 649:
+  => Customer 269 call.
+  => Estimate wait time for customer 269 is 12.
+Minute 650:
+  => Customer 270 call.
+  => Estimate wait time for customer 270 is 14.
+  => Customer 263 completed.
+  => Serving customer 264.
+Minute 651:
+  => Customer 264 completed.
+  => Serving customer 265.
+Minute 652:
+  => Customer 271 call.
+  => Estimate wait time for customer 271 is 12.
+Minute 653:
+  => Customer 265 completed.
+  => Serving customer 266.
+Minute 654:
+  => Customer 272 call.
+  => Estimate wait time for customer 272 is 12.
+Minute 655:
+Minute 656:
+Minute 657:
+  => Customer 266 completed.
+  => Serving customer 267.
+Minute 658:
+  => Customer 273 call.
+  => Estimate wait time for customer 273 is 12.
+Minute 659:
+  => Customer 267 completed.
+  => Serving customer 268.
+Minute 660:
+  => Customer 274 call.
+  => Estimate wait time for customer 274 is 12.
+Minute 661:
+Minute 662:
+  => Customer 275 call.
+  => Estimate wait time for customer 275 is 14.
+Minute 663:
+  => Customer 268 completed.
+  => Serving customer 269.
+Minute 664:
+Minute 665:
+Minute 666:
+  => Customer 276 call.
+  => Estimate wait time for customer 276 is 14.
+Minute 667:
+  => Customer 269 completed.
+  => Serving customer 270.
+Minute 668:
+Minute 669:
+  => Customer 277 call.
+  => Estimate wait time for customer 277 is 14.
+Minute 670:
+Minute 671:
+  => Customer 270 completed.
+  => Serving customer 271.
+Minute 672:
+  => Customer 278 call.
+  => Estimate wait time for customer 278 is 14.
+Minute 673:
+Minute 674:
+  => Customer 271 completed.
+  => Serving customer 272.
+Minute 675:
+  => Customer 272 completed.
+  => Serving customer 273.
+Minute 676:
+  => Customer 279 call.
+  => Estimate wait time for customer 279 is 12.
+Minute 677:
+  => Customer 273 completed.
+  => Serving customer 274.
+Minute 678:
+Minute 679:
+Minute 680:
+  => Customer 280 call.
+  => Estimate wait time for customer 280 is 12.
+  => Customer 274 completed.
+  => Serving customer 275.
+Minute 681:
+Minute 682:
+Minute 683:
+  => Customer 275 completed.
+  => Serving customer 276.
+Minute 684:
+  => Customer 281 call.
+  => Estimate wait time for customer 281 is 10.
+  => Customer 276 completed.
+  => Serving customer 277.
+Minute 685:
+Minute 686:
+  => Customer 277 completed.
+  => Serving customer 278.
+Minute 687:
+  => Customer 282 call.
+  => Estimate wait time for customer 282 is 8.
+  => Customer 278 completed.
+  => Serving customer 279.
+Minute 688:
+Minute 689:
+  => Customer 279 completed.
+  => Serving customer 280.
+Minute 690:
+Minute 691:
+  => Customer 283 call.
+  => Estimate wait time for customer 283 is 6.
+  => Customer 280 completed.
+  => Serving customer 281.
+Minute 692:
+Minute 693:
+Minute 694:
+  => Customer 284 call.
+  => Estimate wait time for customer 284 is 6.
+  => Customer 281 completed.
+  => Serving customer 282.
+Minute 695:
+  => Customer 282 completed.
+  => Serving customer 283.
+Minute 696:
+  => Customer 283 completed.
+  => Serving customer 284.
+Minute 697:
+Minute 698:
+  => Customer 285 call.
+  => Estimate wait time for customer 285 is 2.
+Minute 699:
+  => Customer 284 completed.
+  => Serving customer 285.
+Minute 700:
+  => Customer 285 completed.
+Minute 701:
+Minute 702:
+  => Customer 286 call.
+  => Estimate wait time for customer 286 is 0.
+  => Serving customer 286.
+Minute 703:
+  => Customer 287 call.
+  => Estimate wait time for customer 287 is 2.
+Minute 704:
+  => Customer 288 call.
+  => Estimate wait time for customer 288 is 4.
+  => Customer 286 completed.
+  => Serving customer 287.
+Minute 705:
+  => Customer 287 completed.
+  => Serving customer 288.
+Minute 706:
+Minute 707:
+  => Customer 289 call.
+  => Estimate wait time for customer 289 is 2.
+Minute 708:
+Minute 709:
+  => Customer 290 call.
+  => Estimate wait time for customer 290 is 4.
+  => Customer 288 completed.
+  => Serving customer 289.
+Minute 710:
+Minute 711:
+Minute 712:
+Minute 713:
+  => Customer 291 call.
+  => Estimate wait time for customer 291 is 4.
+  => Customer 289 completed.
+  => Serving customer 290.
+Minute 714:
+Minute 715:
+  => Customer 292 call.
+  => Estimate wait time for customer 292 is 4.
+Minute 716:
+  => Customer 293 call.
+  => Estimate wait time for customer 293 is 6.
+Minute 717:
+  => Customer 294 call.
+  => Estimate wait time for customer 294 is 8.
+  => Customer 290 completed.
+  => Serving customer 291.
+Minute 718:
+  => Customer 291 completed.
+  => Serving customer 292.
+Minute 719:
+  => Customer 295 call.
+  => Estimate wait time for customer 295 is 6.
+Minute 720:
+
+End of Program Report
+=================================================
+Numbers of customers called: 			295
+Numbers of customers served: 			291
+Number of customers left in line: 		3
+Maximum number of customers in line: 	13
+Longest wait time for a customer: 		27
+Average wait time for customers: 		14.9588
